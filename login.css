@@ -1,0 +1,48 @@
+.intro{
+    margin-left: 634px;
+}
+
+body{
+    background-image: url("https://slidescorner.com/wp-content/uploads/2025/03/Spring-Slides-Background-Aesthetic-Gold-and-Crystal-Flowers-for-PPT-PowerPoint-Google-Slides-and-Wallpaper-by-SlidesCorner.com_-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+#username{
+    height: 43px;
+    text-align: center;
+    color: green;
+          font-weight: bold;
+
+}
+#password{
+    height: 43px;
+    text-align: center;
+      color: green;
+      font-weight: bold;
+}
+button{
+     height: 43px;
+    text-align: center;
+      color:green;
+            font-weight: bold;
+            width:123px;
+            margin-left: 113px;
+            border-radius: 7px;
+
+}
+label{
+    color: green;
+    font-weight: bold;
+}
+.info{
+    display: flex;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 63px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blueviolet;
+    font-style: italic;
+}
