@@ -1,0 +1,38 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  opacity: 0.6;
+}
+
+.input {
+  width: 100%;
+  padding: 0.95rem 3rem;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.clear {
+  position: absolute;
+  right: 1rem;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1rem;
+}

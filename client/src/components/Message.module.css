@@ -1,0 +1,18 @@
+.message {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+.icon {
+  font-size: 2.8rem;
+}
+
+.message h3 {
+  margin: 0.75rem 0 0.25rem;
+  color: var(--text);
+}
+
+.message p {
+  margin: 0 0 1rem;
+}
